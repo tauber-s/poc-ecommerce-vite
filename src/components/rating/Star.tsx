@@ -11,7 +11,9 @@ const Star: React.FC<StarProps> = ({
   ...props
 }: StarProps) => {
   return (
-    <span className={className}
+    <span 
+      data-testid={isFilled ? 'star-filled' : 'star-unfilled'}
+      className={`star ${isFilled ? 'filled' : ''} ${className}`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={onClick}

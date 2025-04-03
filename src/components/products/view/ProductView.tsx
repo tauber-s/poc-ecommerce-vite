@@ -34,7 +34,7 @@ const ProductView = () => {
           <h2>{currentProduct.title}</h2>
           <div className='rating-info'>
             <span className="category">{currentProduct.category}</span>
-            <Rating isEditable={false} rating={currentProduct.rating} ratingCount={currentProduct.ratingCount} />
+            <Rating rating={currentProduct.rating} ratingCount={currentProduct.ratingCount} />
           </div>
           <p className='description'>{currentProduct.description}</p>
           <span className="price">$ {currentProduct.price}</span>

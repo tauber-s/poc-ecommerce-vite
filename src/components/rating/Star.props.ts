@@ -5,5 +5,5 @@ export interface StarProps  {
   onMouseLeave?: React.MouseEventHandler<HTMLSpanElement>;
   onClick?: React.MouseEventHandler<HTMLSpanElement>;
   onKeyDown?: React.KeyboardEventHandler<HTMLSpanElement>;
-  tabIndex?: number;
+  tabIndex: number;
 };
