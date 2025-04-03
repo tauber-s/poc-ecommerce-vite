@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  }
+  
+  .flex-container > div {
+    color: black;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .flex-container img {
+    width: 100%;
+    max-height: 400px;
+  }
+
+  .flex-container .grow-5 {
+    flex-grow: 5;
+    width: 60%;
+  }
+
+  .flex-container .grow-3 {
+    flex-grow: 3;
+    width: 40%;
+  }
+
+  .rating-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description {
+    text-align: justify;
+  }
+
+  .price {
+    color: grey;
+    font-size: 32px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .category {
+    background-color: #ddf9c7;
+    color: black;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+  }
