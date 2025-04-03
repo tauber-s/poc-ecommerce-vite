@@ -25,7 +25,7 @@
     /* Absolute import */
     "baseUrl": "./src",
     "paths": {
-      "@/*": ["./*"],
+      "@/*": ["./*"]
     }
   },
   "include": ["src", "./jest.setup.ts"]

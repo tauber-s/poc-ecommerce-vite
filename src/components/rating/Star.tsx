@@ -1,8 +1,22 @@
 import { StarProps } from './Star.props';
 
-const Star = ({ isFilled = false, className, ...props }: StarProps) => {
+const Star: React.FC<StarProps> = ({
+  isFilled = false,
+  className,
+  onMouseEnter,
+  onMouseLeave,
+  onClick,
+  onKeyDown,
+  tabIndex,
+  ...props
+}: StarProps) => {
   return (
-    <span className={className}>
+    <span className={className}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      onClick={onClick}
+      onKeyDown={onKeyDown}
+      tabIndex={tabIndex} >
       <svg
         width='20'
         height='20'
