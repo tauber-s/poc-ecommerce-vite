@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import Header from './components/header/Header';
-import Products from './components/products/Products';
+import Header from '@/components/header/Header';
+import Products from '@/components/products/Products';
 import './App.css';
-import ProductView from './components/products/view/ProductView';
+import ProductView from '@/components/products/view/ProductView';
 
 function App() {
   return (

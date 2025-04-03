@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import products from '../../_data/products.json'
+import products from '@/_data/products.json'
 import ProductCard from './card/ProductCard';
-import SearchBar from '../searchBar/SearchBar';
+import SearchBar from '@/components/searchBar/SearchBar';
 
 const Products = () => {
   const [searchText, setSearchText] = useState<string>('');

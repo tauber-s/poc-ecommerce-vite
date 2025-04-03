@@ -1,8 +1,8 @@
 import { useParams } from 'react-router';
-import products from '../../../_data/products.json'
+import products from '@/_data/products.json'
 import "./ProductView.css";
-import Rating from '../../rating/Rating';
-import ProductCard from '../card/ProductCard';
+import Rating from '@/components/rating/Rating';
+import ProductCard from '@/components/products/card/ProductCard';
 
 const ProductView = () => {
   const { id } = useParams();

@@ -21,11 +21,13 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-
+    
+    /* Absolute import */
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"],
-      "@/components": ["./src/components/*"]
+      "@/*": ["./*"],
+      "@/components": ["./components/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "./jest.setup.ts"]
 }
